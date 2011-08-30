@@ -65,7 +65,6 @@ body.home #mainfooter { margin-top: 0; }
 #copyright .container {
 	width: 940px;
 	margin: 0 auto;
-	padding: 0 10px;
-	height: 198px;
+	padding: 0 10px 20px;
 }
 #copyright a { color: black; font-weight: normal; }
