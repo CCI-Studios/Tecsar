@@ -1,4 +1,4 @@
-#wrapper { background: white url(../images/wrapper_bg.jpg) center 100px no-repeat; }
+#wrapper { background: #fefefe url(../images/wrapper_bg.jpg) center 100px no-repeat; }
 body.home #wrapper { background: white url(../images/wrapper_bg_home.jpg) top no-repeat; }
 #wrapper .container {
 	width: 940px;
