@@ -90,6 +90,11 @@
 	padding-bottom: 96px;
 	
 	background: url(../images/module_shadow.png) bottom no-repeat;
+	background-image: -webkit-linear-gradient(bottom, #fefefe, #bababa 93px, #fefefe 94px, #fefefe);
+	background-image:    -moz-linear-gradient(bottom, #fefefe, #bababa 93px, #fefefe 94px, #fefefe);
+	background-image: 	  -ms-linear-gradient(bottom, #fefefe, #bababa 93px, #fefefe 94px, #fefefe);
+	background-image: 	   -o-linear-gradient(bottom, #fefefe, #bababa 93px, #fefefe 94px, #fefefe);
+	background-image: 		  linear-gradient(bottom, #fefefe, #bababa 93px, #fefefe 94px, #fefefe);
 }
 
 #bottom .module > div {
@@ -98,6 +103,11 @@
 	position: relative;
 	
 	background: #555 url(../images/module_bg.png) top repeat-x;
+	background-image: -webkit-linear-gradient(top, #909090, #747474 1px, #585858 180px);
+	background-image:    -moz-linear-gradient(top, #909090, #747474 1px, #585858 180px);
+	background-image: 	  -ms-linear-gradient(top, #909090, #747474 1px, #585858 180px);
+	background-image: 	   -o-linear-gradient(top, #909090, #747474 1px, #585858 180px);
+	background-image: 	      linear-gradient(top, #909090, #747474 1px, #585858 180px);
 	color: white;
 }
 

@@ -19,6 +19,11 @@ body.home #mainheader { margin-top: 140px; }
 	border-radius: 4px;
 	
 	background: #4c4c4c url(../images/body_bg.png) top repeat-x;
+	background-image: -webkit-linear-gradient(top, #646464, #4c4c4c 262px);
+	background-image:    -moz-linear-gradient(top, #646464, #4c4c4c 262px);
+	background-image:     -ms-linear-gradient(top, #646464, #4c4c4c 262px);
+	background-image:      -o-linear-gradient(top, #646464, #4c4c4c 262px);
+	background-image:         linear-gradient(top, #646464, #4c4c4c 262px);
 	color: white;
 }
 
@@ -51,6 +56,11 @@ body.home #mainfooter { margin-top: 0; }
 	padding-top: 30px;
 	
 	background: url(../images/copyright_bg.png) repeat-x;
+	background-image: -webkit-linear-gradient(top, #fefefe, #ececec 20px, #f2f2f2);
+	background-image:    -moz-linear-gradient(top, #fefefe, #ececec 20px, #f2f2f2);
+	background-image:     -ms-linear-gradient(top, #fefefe, #ececec 20px, #f2f2f2);
+	background-image:      -o-linear-gradient(top, #fefefe, #ececec 20px, #f2f2f2);
+	background-image:         linear-gradient(top, #fefefe, #ececec 20px, #f2f2f2);
 }
 #copyright .container {
 	width: 940px;
