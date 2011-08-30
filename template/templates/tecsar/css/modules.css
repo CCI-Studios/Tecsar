@@ -1,0 +1,114 @@
+/* menus */
+.moduletable_hmenu {
+	text-align: center;
+}
+
+.moduletable_hmenu ul {
+	margin: 0;
+	padding: 0;
+	
+	list-style: none;
+}
+
+.moduletable_hmenu li {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	
+	font-size: 0.91667em;
+	
+	padding: 0 0 0 32px;
+	background: url(../images/menu_div.png) 15px no-repeat;
+}
+.moduletable_hmenu li:first-child { padding-left: 0; background: none; }
+
+.moduletable_hmenu li a,
+.moduletable_hmenu li span { color: black; }
+
+.moduletable_hmenu li a:hover,
+.moduletable_hmenu li span:hover { color: #4040fe; }
+.moduletable_hmenu .separator { cursor: default; }
+
+.moduletable_vmenu {
+	
+}
+
+.moduletable_vmenu ul {
+	margin: 0;
+	padding: 0;
+	
+	list-style: none;
+}
+
+.moduletable_vmenu li {
+	display: block;
+	margin: 3px 0;
+	position: relative;
+	line-height: 2em;
+}
+
+.moduletable_vmenu li a,
+.moduletable_vmenu li span {
+	color: white;
+	font-weight: bold;
+	padding: 0 10px 0 0;
+	position: relative;
+	display: block;
+	width: 170px;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.moduletable_vmenu li:hover,
+.moduletable_vmenu li.active {
+
+}
+
+.moduletable_vmenu li:hover a,
+.moduletable_vmenu li:hover span,
+.moduletable_vmenu li.active a,
+.moduletable_vmenu li.active span {
+	padding-left: 28px;
+	left: -28px;
+	border-radius: 3px;
+	
+	background: #cdcdcd;
+	box-shadow: -3px 3px 6px #333;
+	
+	color: #4040fe;
+	text-decoration: none;
+}	
+
+/* bottom */
+#bottom .module {
+	float: left;
+	width: 219px;
+	margin-left: 21px;
+	padding-bottom: 96px;
+	
+	background: url(../images/module_shadow.png) bottom no-repeat;
+}
+
+#bottom .module > div {
+	padding: 10px 10px 25px;
+	border-radius: 3px;
+	position: relative;
+	
+	background: #555 url(../images/module_bg.png) top repeat-x;
+	color: white;
+}
+
+#bottom .module h3 {
+	margin: 0 -17px 1.11em;
+	padding: 0 17px;
+	border-radius: 3px;
+	box-shadow: -2px 2px 4px #333;
+	
+	background: #cdcdcd;
+	color: #4040fe;
+	font-size: 1.5em;
+	line-height: 2em;
+}
