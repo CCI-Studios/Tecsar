@@ -14,7 +14,7 @@ else
 	<jdoc:include type="head" />
 	
 	
-	<link rel="stylesheet" href="/templates/tecsar/css/template.min.css" />
+	<link rel="stylesheet" href="/templates/tecsar/css/template.css" />
 	<script src="/templates/tecsar/scripts/scripts.js"></script>
 	
 	<script type="text/javascript">
